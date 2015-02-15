@@ -1,0 +1,369 @@
+/*paste2.css done with experimental and re-named to footer-scc.css 02-13-15*/
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#OpenSans-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('../fonts/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Semibold-webfont.svg#OpenSans-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Default text styles */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "OpenSans-Light",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.2125em;
+    margin-bottom: 0.15em;
+    margin-top: 0.2em;
+	color: #fff !important;
+    text-rendering: optimizelegibility;
+}
+
+p {
+  font-family: 'OpenSans-Regular', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 1.25em;
+  text-rendering: optimizeLegibility;
+}
+  
+p.smallprint { 
+	font-size:.8em; 
+	margin-bottom: .05em !important; 
+}
+
+.tinyprint { 
+	font-size:.7em !important;
+}
+
+
+/* Helpful Typography Defaults */
+em, i {
+	font-style: italic; 
+	line-height: inherit; 
+}
+
+/* Helpful Typography Defaults */
+* {
+	text-decoration: none;
+}
+
+em, i { 
+	font-style: italic; 
+	line-height: inherit; 
+}
+
+
+[class*="icon-"],[class^="icon-"] {
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: 400;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+[class*="fa-"],[class^="fa-"] {
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: 400;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/* Lists */
+#footer-scc ul, ol, dl {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 1.25em;
+  list-style-position: outside;
+  font-family: inherit;
+}
+
+#footer-scc {
+	display: block;
+	direction: ltr;
+    margin: 0;
+    padding: 0;
+    background: none repeat scroll 0 0 #008fc5;
+    border-top: 20px solid #3a3a3a;
+    color: #fff;
+    overflow: hidden;
+}
+
+#footer-scc  a {
+  font-family: 'OpenSans-Regular', Arial, sans-serif;
+    color: #fff;
+}
+
+#footer-scc h4 {
+    font-family: "OpenSans-Light",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.2125em;
+    margin-bottom: 0.15em;
+    margin-top: 0.2em;
+	color: #fff !important;
+    text-rendering: optimizelegibility;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.footer-logo {
+    position: absolute;
+    right: 6%;
+	margin: 0 2% 0 2%;
+    top: -70px;
+}
+
+.college-links {
+    position: absolute;
+    top: -48px;
+}
+
+/*row*/
+
+.row {
+    padding-right: 2%;
+    margin: 0 auto;
+    max-width: 62.5em;
+    width: 100%;
+}
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+
+/*large-12*/
+
+.large-12 {
+    position: relative;
+    width: 100%;
+}
+
+/*small-12*/
+
+.small-12 {
+    position: relative;
+    width: 100%;
+}
+
+/*columns*/
+
+.column, .columns {
+    float: left;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    position: relative;
+    width: 100%;
+}
+
+.lt-ie9 .column, .columns {
+    float: left;
+    min-height: 1px;
+    padding: 0 15px;
+    position: relative;
+}
+
+/*top-padding*/
+
+.top-padding {
+    padding-top: 1em;
+}
+
+/*social-media*/
+
+.social-media {
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+}
+
+/*text-center*/
+.text-center {
+    text-align: center !important;
+}
+
+/*broadway-campus*/
+
+.broadway-campus {
+    margin-top: 50px;
+	font-family: 'OpenSans-Light', Arial, sans-serif;
+}
+
+/*smallprint*/
+
+.smallprint {
+    font-size: 0.8em;
+    margin-bottom: 0.05em !important;
+}
+
+/*rm-sm-break*/
+.rm-break, .rm-sm-break {
+    display: none;
+}
+
+/*donate-contact-dis*/
+
+#donate-contact-dis [class^="icon-"], #donate-contact-dis [class*=" icon-"] {
+    padding-right: 6px;
+}
+
+#donate-contact-dis ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em 0;
+    text-align: center;
+}
+#donate-contact-dis ul li {
+    display: inline;
+}
+#donate-contact-dis ul li a {
+    padding: 0.2em 1em;
+    text-decoration: none;
+}
+
+
+/*tinyprint*/
+.tinyprint {
+    font-size: 0.7em !important;
+}
+
+@media only screen {
+	.column, .columns {
+		float: left;
+		padding-left: 0.9375em;
+		padding-right: 0.9375em;
+		position: relative;
+	}
+		
+}
+@media screen and (max-width: 980px) {
+
+
+	.footer-logo {
+		position: absolute;
+		right: 4%;
+		top: -90px;
+	}
+
+	.social-media {
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		right: 0;
+		text-align: center;
+	}
+
+	#donate-contact-dis ul li a {
+		padding: 0.2em 0.5em;
+		text-decoration: none;
+	}
+	.college-links  {
+		position: static;
+		display: block;
+		clear: both;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	#footer-scc {
+		height: 355px;
+	}
+	.footer-logo {
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		right: 0;
+		top: -50px;
+	}
+
+}
+
+@media only screen and (max-width: 770px) {
+
+	.footer-logo {
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		right: 0;
+		top: -50px;
+	}
+	.college-links { 
+		/*position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		text-align:center;
+		top: -20px;*/
+	 }
+	
+}
+
+@media screen and (max-width: 700px) {
+
+	.rm-sm-break {
+		display: block;
+	}
+
+	.hide-for-small{
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 435px) {
+	#donate-contact-dis ul li a {
+		font-size: 80%;
+	}
+}
+@media screen and (max-width: 350px) {
+
+
+
+	.columns:last-child {
+		float: left;
+	}
+
+	#donate-contact-dis ul li a {
+		padding: 0.2em;
+		text-decoration: none;
+	}
+	.college-links { top: 5px;}
+	.footer-logo {top:-15px} 
+}
+

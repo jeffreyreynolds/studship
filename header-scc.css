@@ -1,0 +1,47 @@
+
+#scc-header  {
+    background: #0F90C7;
+    width: 100%;
+	padding-top: -40px;
+}
+
+.row {
+    padding-left: 15px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#header-logo {
+    width: 250px;
+    display: block;
+    height: auto;
+    margin: 10px 0 0 15px;
+    /*overflow: hidden;*/
+    width: auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 825px) {
+	.header-logo {
+		max-width: 220px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.header-logo {
+		max-width: 150px;
+		height: 45px;
+		margin-bottom: 0;		
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.header-logo {
+		height: 30px;
+		margin-top: 12px;
+		width: 250px;		
+	}
+}
